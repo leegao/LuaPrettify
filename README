@@ -1,0 +1,12 @@
+Usage: tidy.py <filename.lua> ...
+
+Web Preview
+http://www.cs2d.org/validate/
+
+API Usage
+import tidy
+print tidy.prettify("function hello_world() print('Hello World') end")
+
+function hello_world()
+  print('Hello World')
+end
